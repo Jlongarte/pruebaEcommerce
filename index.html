@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-shop</title>
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Categories</a>
+                    <div class="mega-menu">
+                        <div class="column">
+                            <h4>Product Types</h4>
+                            <ul>
+                                <li><a href="#">Simple Product</a></li>
+                                <li>Grouped Product <span class="label label-new">NEW</span></li>
+                                <li><a href="#">External/Affiliate product</a></li>
+                                <li>Variable Products <span class="label label-hot">HOT</span></li>
+                                <li><a href="#">Sale Products</a></li>
+                                <li><a href="#">Upsell Products</a></li>
+                                <li>Cross-sell Product <span class="label label-new">NEW</span></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>WooCommerce Pages</h4>
+                            <ul>
+                                <li><a href="#">Shop Page</a></li>
+                                <li>Category Page <span class="label label-hot">HOT</span></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Checkout Page</a></li>
+                                <li><a href="#">My account</a></li>
+                                <li>Shop Ajax Filter <span class="label label-trending">TRENDING</span></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>Product Features</h4>
+                            <ul>
+                                <li>Stock Progress Bar <span class="label label-hot"
+                                        style="background:#fcb8b3;">NEW</span></li>
+                                <li><a href="#">Product Brand</a></li>
+                                <li><a href="#">Countdown Timer</a></li>
+                                <li><a href="#">Size Guide Table</a></li>
+                                <li>Custom Tabs <span class="label label-featured">FEATURED</span></li>
+                                <li><a href="#">Product Variations Gallery</a></li>
+                                <li>Product Video <span class="label label-new">NEW</span></li>
+                            </ul>
+                        </div>
+                        <div class="offer">
+                            <span class="label-offer">OFFER!</span>
+                            <h3>Flat 80% OFF</h3>
+                            <img src="/mnt/data/5f40db47-81ca-4f2e-a203-aa42315a5885.png" alt="Oferta" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>
+                Trendy Styles, Amazing Prices
+            </h1>
+            <p>Exclusive Fashion Deals Just For You!</p>
+            <button>SEE ALL OFFERS</button>
+        </section>
+
+        <section id="categories">
+            <h2>Shop by category</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero repellat maxime, optio, illum
+                rerum consequuntur asperiores porro ad perferendis voluptatem nisi sit dolores. </p>
+            <div class="container">
+                <div class="category">
+                    <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/Cat-05.jpg"
+                        alt="category">
+                    <h3>Sweatshirt</h3>
+                    <p class="style-one">256 Products</p>
+                </div>
+                <div class="category">
+                    <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/Cat-01.jpg"
+                        alt="category">
+                    <h3>Sweatshirt</h3>
+                    <p class="style-one">256 Products</p>
+                </div>
+                <div class="category">
+                    <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/Cat-06.jpg"
+                        alt="category">
+                    <h3>Sweatshirt</h3>
+                    <p class="style-one">256 Products</p>
+                </div>
+                <div class="category">
+                    <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/Cat-03.jpg"
+                        alt="category">
+                    <h3>Sweatshirt</h3>
+                    <p class="style-one">256 Products</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="banners">
+            <div class="banner-one">
+                <h4>Timeless purses for every outfit</h4>
+                <p>at $139.00</p>
+                <button class="button-one">buy now</button>
+            </div>
+            <div class="banner-two">
+                <h4>Timeless purses for every outfit</h4>
+                <p>at $139.00</p>
+                <button class="button-one">buy now</button>
+            </div>
+            <div class="banner-three">
+                <h4>Timeless purses for every outfit</h4>
+                <p>at $139.00</p>
+                <button class="button-one">buy now</button>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Trending Products</h2>
+            <p>
+                Discover the latest fashion trends and timeless styles.<br>
+                Shop now for exclusive deals and elevate your wardrobe!
+            </p>
+            <div class="categories">
+                <ul id="category-list">
+                    <li data-category="women's clothing">Women's Clothing</li>
+                    <li data-category="men's clothing">Men's Clothing</li>
+                    <li data-category="jewelery">Jewelery</li>
+                    <li data-category="electronics">Electronics</li>
+                </ul>
+            </div>
+            <div class="products-grid"></div>
+        </section>
+        <hr class="hr">
+        <section id="icons">
+            <div class="icon">
+                <img src="assets/enviado.png" alt="icono">
+                <div class="icon-p">
+                    <h3>Free Shipping</h3>
+                    <p>On Order Over $100</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="assets/tarjeta-de-debito.png" alt="icono">
+                <div class="icon-p">
+                    <h3>Secure payment</h3>
+                    <p>100% Fast & Secure Payment</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="assets/customer-review.png" alt="icono">
+                <div class="icon-p">
+                    <h3>24/7 Support Services</h3>
+                    <p>Any Time Customer Support</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="assets/money-management.png" alt="icono">
+                <div class="icon-p">
+                    <h3>Flexible & Easy Return</h3>
+                    <p>Return within 14 days</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="banners">
+            <div class="banner">
+                <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/CMS-banner-4.jpg"
+                    alt="banner">
+                <h4>New Summer Collection 2025</h4>
+                <p class="shop-collection">SHOP COLLECTION</p>
+            </div>
+            <div class="banner">
+                <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/CMS-banner-05.jpg"
+                    alt="banner">
+                <h4>Exclusive Discounts Just For You</h4>
+                <p class="shop-collection">SHOP COLLECTION</p>
+            </div>
+            <div class="banner">
+                <img src="https://demo.webdigify.com/WCM05/WCM139_dream/wp-content/uploads/2025/02/CMS-banner-06.jpg"
+                    alt="banner">
+                <h4>Warm Up With Winter Fashion</h4>
+                <p class="shop-collection">SHOP COLLECTION</p>
+            </div>
+
+        </section>
+
+        <section id="products">
+            <h2>Special Products</h2>
+            <p>
+                Shop Trendy Fashion, Exclusive Styles, And Great Deals.<br>
+                Refresh Your Wardrobe With The Latest Must-haves!
+            </p>
+
+            <div class="all-products">
+
+            </div>
+        </section>
+
+        <section id="reviews">
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h4>Store Information</h4>
+                <p></p>99 New Theme St. XY, USA 12345, Beside The Sun Point land.</p>
+                <p>(+91) 123-456-789</p>
+                <p>(+91) 987-654-321</p>
+                <p>demo@example.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Get to know Us</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Term & Policy</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Payments</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Orders & Returns</h4>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Exchange</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>©Garayoa 2025</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Floating Button -->
+    <div id="chatbot">
+        <div id="chat-toggle">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Bot Avatar" />
+        </div>
+        <div id="chat-window" class="hidden">
+            <div id="chat-header">Asistente Virtual</div>
+            <div id="chat-messages"></div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Escribe un mensaje..." required />
+                <button type="submit" class="no-popup">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="demo-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="Cerrar pop-up">&times;</button>
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDY5NWFlajZibWJqOHI3YTVvb3k2bm5mOTZoZG8zeWt2cnIzaXB1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bk8UGCysurqC2gmJ0o/giphy.gif"
+                alt="Welcome gif" class="modal-gif">
+            <h2>🎉 ¡Bienvenido a esta demo!</h2>
+            <p>Estamos encantados de tenerte por aquí 😄 <br>
+                Este sitio es solo una prueba, ¡pero está hecho con cariño!</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
